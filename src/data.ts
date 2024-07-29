@@ -1,0 +1,88 @@
+import { IBook } from "./interfaces";
+
+export const books: IBook[] = [
+  {
+    id: 1,
+    title: "Flight From the Dark",
+    author: "Joe Dever",
+    series: "Kai",
+    src: "./src/assets/lone_wolf/Book_1.png",
+  },
+  {
+    id: 2,
+    title: "Fire in the Water",
+    author: "Joe Dever",
+    series: "Kai",
+    src: "./src/assets/lone_wolf/Book_2.png",
+  },
+  {
+    id: 3,
+    title: "The Caverns of Kalte",
+    author: "Joe Dever",
+    series: "Kai",
+    src: "./src/assets/lone_wolf/Book_3.png",
+  },
+  {
+    id: 4,
+    title: "The Chasm of Doom",
+    author: "Joe Dever",
+    series: "Kai",
+    src: "./src/assets/lone_wolf/Book_4.png",
+  },
+  {
+    id: 5,
+    title: "Shadow on the Sand",
+    author: "Joe Dever",
+    series: "Kai",
+    src: "./src/assets/lone_wolf/Book_5.png",
+  },
+  {
+    id: 6,
+    title: "The Kingdoms of Terror",
+    author: "Joe Dever",
+    series: "Magnakai",
+    src: "./src/assets/lone_wolf/Book_6.jpg",
+  },
+  {
+    id: 7,
+    title: "Castle Death",
+    author: "Joe Dever",
+    series: "Magnakai",
+    src: "./src/assets/lone_wolf/Book_7.jpg",
+  },
+  {
+    id: 8,
+    title: "Jungle of Horrors",
+    author: "Joe Dever",
+    series: "Magnakai",
+    src: "./src/assets/lone_wolf/Book_8.png",
+  },
+  {
+    id: 9,
+    title: "The Cauldron of Fear",
+    author: "Joe Dever",
+    series: "Magnakai",
+    src: "./src/assets/lone_wolf/Book_9.png",
+  },
+  {
+    id: 10,
+    title: "The Dungeons of Torgar",
+    author: "Joe Dever",
+    series: "Magnakai",
+    src: "./src/assets/lone_wolf/Book_10.png",
+  },
+  {
+    id: 11,
+    title: "The Prisoners of Time",
+    author: "Joe Dever",
+    series: "Magnakai",
+    src: "./src/assets/lone_wolf/Book_11.jpg",
+  },
+  {
+    id: 12,
+    title: "The Masters of Darkness",
+    author: "Joe Dever",
+    series: "Magnakai",
+    src: "./src/assets/lone_wolf/Book_12.jpg",
+  },
+];
