@@ -1,7 +1,14 @@
+import { Header, Navbar, Content, Footer } from "./Components";
+
+import "../css/App.css";
+import "../css/css-grid.css";
+
 export function App() {
   return (
-    <>
-      <h1>This is the App component</h1>
-    </>
+    <div className="body">
+      <Header />
+      <Navbar />
+      <Content />
+    </div>
   );
 }

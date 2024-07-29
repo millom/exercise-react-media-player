@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 5% auto;
+
+  height: 100vh;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: aqua;
+}
+
+.footer {
+  background-color: bisque;
+}
+
+.navbar {
+  background-color: blueviolet;
+}
+
+.content {
+  background-color: chartreuse;
+}
