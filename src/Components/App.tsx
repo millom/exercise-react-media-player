@@ -1,4 +1,4 @@
-import { Header, Navbar, Content, Footer } from "./Components";
+import { Header, Navbar, Content } from ".";
 
 import "../css/App.css";
 import "../css/css-grid.css";
