@@ -17,11 +17,13 @@ export function Content({ books, index }: IContentProps): ReactElement {
 
   return (
     <div className="content">
-      <img className="image" src={books[index].src} alt={books[index].src} />
+      <figure className="figure">
+        <img className="image" src={books[index].src} alt={books[index].src} />
+      </figure>
       <article className="article">
         <h2 className="header">Title: {books[index].title}</h2>
-        <p className="paragraph">Author: {books[index].author}</p>
-        <p className="paragraph">Series: {books[index].series} series</p>
+        <h2 className="paragraph">Author: {books[index].author}</h2>
+        <h2 className="paragraph">Series: {books[index].series} series</h2>
       </article>
     </div>
   );

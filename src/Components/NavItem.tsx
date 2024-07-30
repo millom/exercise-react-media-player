@@ -13,7 +13,9 @@ interface IBookProps {
 export function NavItem({ book, onSelect }: IBookProps): ReactElement {
   return (
     <article className="nav-item" onClick={onSelect}>
-      <img src={book.src} alt={book.src} height="75rem" />
+      <figure className="small-figure">
+        <img className="small-image" src={book.src} alt={book.src} />
+      </figure>
       <p className="title">{book.title}</p>
       {/* <p>{book.author}</p>
       <p>{book.series}</p> */}
