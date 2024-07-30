@@ -4,6 +4,7 @@ import { NavItem } from "./NavItem";
 import { books } from "../data";
 
 import "../css/css-grid.css";
+import "../css/Navbar.css";
 
 // const data2: IBook[] = data;
 

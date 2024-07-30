@@ -1,9 +1,18 @@
 .nav-item {
   display: flex;
   justify-content: left;
-  align-content: center;
+  align-items: center;
   gap: 1rem;
   padding: 1rem;
   margin: 0.5rem;
   background-color: azure;
+}
+
+.nav-item:focus {
+  background-color: aqua;
+}
+
+.title {
+  height: 2rem;
+  font-size: xx-large;
 }
