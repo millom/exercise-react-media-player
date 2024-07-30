@@ -14,11 +14,6 @@
   color: rgb(245, 122, 122);
 }
 
-/* .nav-item:active {
-  background-color: #555555;
-  color: whitesmoke;
-} */
-
 .nav-item:checked {
   background-color: aqua;
   color: whitesmoke;
@@ -37,12 +32,7 @@
 .title {
   height: 4rem;
   font-size: 4rem;
-  /* color: brown; */
 }
-
-/* .title:hover {
-  color: rgb(225, 102, 102);
-} */
 
 .active-item {
   background-color: #202020;

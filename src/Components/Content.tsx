@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { IBook } from "../interfaces";
+import { IBook } from ".";
 
 import "../css/css-grid.css";
 import "../css/Content.css";
@@ -7,14 +7,9 @@ import "../css/Content.css";
 export interface IContentProps {
   books: IBook[];
   index: number;
-  // indexState: useState;
-  // initialIndex: number;
-  // setIndex: Function;
 }
 
 export function Content({ books, index }: IContentProps): ReactElement {
-  // const [index, setIndex] = useState(initialIndex);
-
   return (
     <div className="content">
       <figure className="big-figure">

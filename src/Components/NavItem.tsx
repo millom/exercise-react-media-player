@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { IBook } from "../interfaces";
+import { IBook } from ".";
 
 import "../css/NavItem.css";
 
@@ -8,8 +8,6 @@ interface IBookProps {
   onSelect: React.MouseEventHandler<HTMLElement>;
   index: number;
 }
-
-// const hello = () => console.log("Heelo");
 
 export function NavItem({ book, onSelect, index }: IBookProps): ReactElement {
   return (
@@ -21,8 +19,6 @@ export function NavItem({ book, onSelect, index }: IBookProps): ReactElement {
         <img className="small-image" src={book.src} alt={book.src} />
       </figure>
       <p className="title">{book.title}</p>
-      {/* <p>{book.author}</p>
-      <p>{book.series}</p> */}
     </article>
   );
 }

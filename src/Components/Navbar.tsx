@@ -1,17 +1,13 @@
 import { ReactElement } from "react";
-import { IBook } from "../interfaces";
-import { NavItem } from "./NavItem";
-// import { books } from "../data";
+import { NavItem, IBook } from ".";
 
 import "../css/css-grid.css";
 import "../css/Navbar.css";
 
-// const data2: IBook[] = data;
 export interface INavbarProps {
   books: IBook[];
   index: number;
-  // onSelect: React.MouseEventHandler<HTMLElement>; //(id: number) => index = id;
-  onSelect: Function; //(id: number) => index = id;
+  onSelect: Function;
 }
 
 export function Navbar({ books, index, onSelect }: INavbarProps): ReactElement {
