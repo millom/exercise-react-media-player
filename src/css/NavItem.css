@@ -6,10 +6,12 @@
   padding: 1rem;
   margin: 0.5rem;
   background-color: black;
+  color: brown;
 }
 
 .nav-item:hover {
   background-color: #505050;
+  color: rgb(245, 122, 122);
 }
 
 /* .nav-item:active {
@@ -35,9 +37,14 @@
 .title {
   height: 4rem;
   font-size: 4rem;
-  color: brown;
+  /* color: brown; */
 }
+
+/* .title:hover {
+  color: rgb(225, 102, 102);
+} */
 
 .active-item {
   background-color: #202020;
+  color: rgb(195, 72, 72);
 }

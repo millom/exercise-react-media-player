@@ -7,7 +7,7 @@ export function Header(): ReactElement {
   return (
     <div className="header">
       <span className="material-symbols-outlined">arrow_back_ios</span>
-      <h1>Lone Wolf books - Hardback</h1>
+      <h1>Lone Wolf - Hardback books</h1>
       <span className="material-symbols-outlined">more_vert</span>
     </div>
   );
