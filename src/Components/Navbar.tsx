@@ -10,13 +10,19 @@ import "../css/Navbar.css";
 export interface INavbarProps {
   books: IBook[];
   index: number;
+  // onSelect: React.MouseEventHandler<HTMLElement>; //(id: number) => index = id;
+  onSelect: Function; //(id: number) => index = id;
 }
 
-export function Navbar({ books, index }: INavbarProps): ReactElement {
+export function Navbar({ books, index, onSelect }: INavbarProps): ReactElement {
   return (
     <nav className="navbar">
       {books.map((book) => (
-        <NavItem key={book.id} book={book} />
+        <NavItem
+          key={book.id}
+          book={book}
+          onSelect={() => onSelect(book.id - 1)}
+        />
       ))}
     </nav>
   );
