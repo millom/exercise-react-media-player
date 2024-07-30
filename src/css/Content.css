@@ -1,4 +1,18 @@
 .content {
   /* height: 100vh; */
   /* overflow-y: ; */
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  flex-direction: col;
+  margin: 1rem;
+}
+
+.image {
+  height: 75%;
+}
+
+.article {
+  /* display: flex; */
+  /* justify-content: center; */
 }
