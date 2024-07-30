@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import { NavItem, IBook } from ".";
 
-import "../css/css-grid.css";
 import "../css/Navbar.css";
 
 export interface INavbarProps {

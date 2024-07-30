@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import { IBook } from ".";
 
-import "../css/css-grid.css";
 import "../css/Content.css";
 
 export interface IContentProps {
