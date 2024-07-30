@@ -22,6 +22,7 @@ export function Navbar({ books, index, onSelect }: INavbarProps): ReactElement {
           key={book.id}
           book={book}
           onSelect={() => onSelect(book.id - 1)}
+          index={index}
         />
       ))}
     </nav>

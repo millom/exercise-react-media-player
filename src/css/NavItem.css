@@ -8,8 +8,18 @@
   background-color: black;
 }
 
-.nav-item:focus {
+.nav-item:hover {
+  background-color: #505050;
+}
+
+/* .nav-item:active {
+  background-color: #555555;
+  color: whitesmoke;
+} */
+
+.nav-item:checked {
   background-color: aqua;
+  color: whitesmoke;
 }
 
 .small-figure {
@@ -26,4 +36,8 @@
   height: 4rem;
   font-size: 4rem;
   color: brown;
+}
+
+.active-item {
+  background-color: #202020;
 }

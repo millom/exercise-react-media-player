@@ -21,7 +21,7 @@ export function App() {
   return (
     <div className="body">
       <Header />
-      <Navbar books={books} index={index} onSelect={updateIndexOnClick} />
+      <Navbar books={books} index={index2} onSelect={updateIndexOnClick} />
       <Content books={books} index={index2} />
     </div>
   );
