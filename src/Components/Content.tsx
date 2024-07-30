@@ -7,9 +7,14 @@ import "../css/Content.css";
 export interface IContentProps {
   books: IBook[];
   index: number;
+  // indexState: useState;
+  // initialIndex: number;
+  // setIndex: Function;
 }
 
 export function Content({ books, index }: IContentProps): ReactElement {
+  // const [index, setIndex] = useState(initialIndex);
+
   return (
     <div className="content">
       <img className="image" src={books[index].src} alt={books[index].src} />
